@@ -57,26 +57,31 @@ class ViewController: UIViewController {
     }
     
     func checkAnswer(yourAnswer: Bool) {
-        let question = questions[currentQuestionNum]
-        
-        if let ans = question["answer"] as? Bool {
-            if yourAnswer == ans {
-                currentQuestionNum += 1
-                showAlert(message: "正解！")
+        if questions.isEmpty == false {
+            let question = questions[currentQuestionNum]
+            
+            if let ans = question["answer"] as? Bool {
+                if yourAnswer == ans {
+                    currentQuestionNum += 1
+                    showAlert(message: "正解！")
+                } else {
+                    showAlert(message: "不正解！")
+                }
+                
             } else {
-                showAlert(message: "不正解！")
+                print("答えが入っていません")
+                return
             }
             
+            if currentQuestionNum >= questions.count {
+                currentQuestionNum = 0
+            }
+            
+            showQuestion()
+            
         } else {
-            print("答えが入っていません")
-            return
+            showAlert(message: "問題を入力してください！")
         }
-        
-        if currentQuestionNum >= questions.count {
-            currentQuestionNum = 0
-        }
-        
-        showQuestion()
     }
     
     func showAlert(message: String) {
