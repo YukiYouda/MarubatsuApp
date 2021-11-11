@@ -50,8 +50,7 @@ class CreateViewController: UIViewController {
     
     @IBAction func allCrear(_ sender: Any) {
         let userDefaults = UserDefaults.standard
-        questions = []
-        userDefaults.set(questions, forKey: "add")
+        userDefaults.set([], forKey: "add")
         showAlert(message: "問題をすべて削除しました。")
     }
     
