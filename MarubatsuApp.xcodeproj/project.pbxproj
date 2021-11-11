@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36C7F02D2738A71800A3F5D4 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C7F02C2738A71800A3F5D4 /* CreateViewController.swift */; };
 		36CC44322735FB2A00C5893E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC44312735FB2A00C5893E /* AppDelegate.swift */; };
 		36CC44342735FB2A00C5893E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC44332735FB2A00C5893E /* SceneDelegate.swift */; };
 		36CC44362735FB2A00C5893E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC44352735FB2A00C5893E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36C7F02C2738A71800A3F5D4 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 		36CC442E2735FB2A00C5893E /* MarubatsuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarubatsuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CC44312735FB2A00C5893E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36CC44332735FB2A00C5893E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				36CC44312735FB2A00C5893E /* AppDelegate.swift */,
 				36CC44332735FB2A00C5893E /* SceneDelegate.swift */,
 				36CC44352735FB2A00C5893E /* ViewController.swift */,
+				36C7F02C2738A71800A3F5D4 /* CreateViewController.swift */,
 				36CC44372735FB2A00C5893E /* Main.storyboard */,
 				36CC443A2735FB3800C5893E /* Assets.xcassets */,
 				36CC443C2735FB3800C5893E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C7F02D2738A71800A3F5D4 /* CreateViewController.swift in Sources */,
 				36CC44362735FB2A00C5893E /* ViewController.swift in Sources */,
 				36CC44322735FB2A00C5893E /* AppDelegate.swift in Sources */,
 				36CC44342735FB2A00C5893E /* SceneDelegate.swift in Sources */,
